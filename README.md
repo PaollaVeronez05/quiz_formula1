@@ -74,5 +74,7 @@ Além disso, foi possível compreender melhor o uso de componentes do Bootstrap,
 👨‍💻 Autor
 
 Desenvolvido por: Paolla Paula Veronez
+
 📚 Objetivo: Atividade prática para reforçar PHP e Bootstrap
+
 🏫 Instituição: SENAI A. Jacob Lafer
