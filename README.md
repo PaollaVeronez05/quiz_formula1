@@ -53,14 +53,15 @@ Durante o desenvolvimento do quiz, foram revisitados conceitos essenciais de pro
 Além disso, foi possível compreender melhor o uso de componentes do Bootstrap, aprimorando o design e a usabilidade do projeto.
 
 
----
 
-🎨 Visual do Projeto
 
 ---
 
 
 🔍 Pré-visualização do Quiz Fórmula 1
+
+---
+
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/e2d7c2f9-afff-48bd-bc1b-7c9f1c1e2f97" />
 
 ---
