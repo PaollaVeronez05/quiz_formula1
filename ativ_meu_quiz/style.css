@@ -1,0 +1,226 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9ebbc; /* Preto fosco, estilo pista de corrida */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Container principal */
+.container {
+    background: linear-gradient(to right, #c62828, #b71c1c); /* Vermelho Ferrari */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Títulos */
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Linha de separação */
+hr {
+    border: 0;
+    height: 3px;
+    background: linear-gradient(to right, #fff, #ff0000, #fff);
+    margin: 20px 0;
+}
+
+/* Informações da questão */
+h5, h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffeb3b; /* Amarelo de destaque */
+}
+
+/* Número de questão */
+h5 strong {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+/* Destaque para o nome do piloto / equipe */
+h4 strong {
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Alternativas */
+div h3 {
+    font-size: 1.3rem;
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+div h3:hover {
+    background-color: #ff0000;
+    color: #fff;
+    transform: scale(1.05);
+    border: 2px solid #fff;
+}
+
+/* Botão desistir ou voltar */
+a {
+    font-size: 1.1rem;
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fff;
+}
+
+/* Container de resultados */
+.result-container {
+    background: linear-gradient(to right, #333, #000);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Texto dos resultados */
+.result-container h3 {
+    font-size: 1.8rem;
+    color: #ffeb3b;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Valor da pontuação */
+.result-container .result-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4444;
+}
+
+/* Botão jogar novamente */
+.result-container .btn-secondary {
+    background-color: #ff0000;
+    color: white;
+    font-size: 1.1rem;
+    padding: 15px;
+    border-radius: 5px;
+    width: 60%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.result-container .btn-secondary:hover {
+    background-color: #b71c1c;
+    transform: scale(1.05);
+}
+
+/* Campo de texto no início */
+#text_total_questions {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ff0000;
+    background-color: #111;
+    color: #fff;
+    width: 60%;
+    margin: 10px 0 20px;
+    transition: all 0.3s ease;
+}
+
+#text_total_questions:focus {
+    border-color: #ffeb3b;
+    outline: none;
+}
+
+/* Botão principal */
+.btn {
+    background-color: #ff0000;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #b71c1c;
+    transform: scale(1.05);
+}
+
+/* Animação */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.submit{
+    /* Estilo do botão no formulário de início */
+.btn {
+    background-color: #2a5b36; /* Cor vibrante de amarelo */
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #cc6e9f;
+    transform: scale(1.05);
+}
+}
+.footer{
+    color: #000;
+}
